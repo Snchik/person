@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab1_nikita_pugachev
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            sbyte a = -10;
+            sbyte b;
+            b = Math.Abs(a);
+            Console.WriteLine(b);
+            sbyte a1 = -15;
+            sbyte b1 = -5;
+            sbyte c;
+            c = Math.Max(a1, b1);
+            Console.WriteLine(c);
+            double a3 = 9;
+            double d = Math.Sqrt(a3);
+            Console.WriteLine(d);
+            double a4 = 10.5;
+            double f = Math.Truncate(a4);
+            Console.WriteLine(f);
+
+
+            double x = 7;
+            double e = 5;
+            double y;
+            y = (Math.Pow(e, x) - Math.Pow(e, -x)) / (Math.Pow(e, x) + Math.Pow(e, -x));
+            Console.WriteLine(y);
